@@ -1,2 +1,17 @@
-.root {
+.root {}
+
+.input {
+    padding: 0.6em 2.8em;
+    border: 1px solid #6355E0;
+    border-radius: 0.2px;
+
+    &:focus {
+        border: 1px solid #16BDBD;
+        outline: unset;
+        box-shadow: 0 0 6px #2292B2;
+    }
 }
+
+.input {}
+
+.another {}

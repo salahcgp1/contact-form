@@ -1,2 +1,14 @@
-.root {
+.root {}
+
+.button {
+    padding: 0.6em;
+    margin: 1em;
+    color: #0AE085;
+    border-radius: 6px;
+    background-color: #2007B3;
+
+    &:focus {
+        background-color: #071FA8;
+        box-shadow: 0 0 6px black;
+    }
 }
